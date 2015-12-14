@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\Laura\Desktop\RulesOfBball\RulesOfBball\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-12-14T11:40:52.360</Modified>
+      <Modified>2015-12-14T12:06:22.789</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -460,37 +460,37 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Laura\Desktop\RulesOfBball\RulesOfBball\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2015-10-10T21:09:42.000</Modified>
+      <Modified>2015-12-14T11:59:35.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Laura\Desktop\RulesOfBball\RulesOfBball\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-10T21:09:42.000</Modified>
+      <Modified>2015-12-14T12:00:34.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Laura\Desktop\RulesOfBball\RulesOfBball\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-10T21:09:42.000</Modified>
+      <Modified>2015-12-14T12:02:31.297</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Laura\Desktop\RulesOfBball\RulesOfBball\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-10T21:09:42.000</Modified>
+      <Modified>2015-12-14T12:01:10.722</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Laura\Desktop\RulesOfBball\RulesOfBball\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-10T21:09:42.000</Modified>
+      <Modified>2015-12-14T12:01:51.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Laura\Desktop\RulesOfBball\RulesOfBball\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-10T21:09:42.000</Modified>
+      <Modified>2015-12-14T12:03:32.744</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Laura\Desktop\RulesOfBball\RulesOfBball\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-10T21:09:42.000</Modified>
+      <Modified>2015-12-14T12:03:57.869</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Laura\Desktop\RulesOfBball\RulesOfBball\bin\x86\Debug\RulesOfBball.xr.xml">
       <PackagePath>RulesOfBball.xr.xml</PackagePath>
@@ -506,7 +506,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Laura\Desktop\RulesOfBball\RulesOfBball\bin\x86\Debug\Core\RulesOfBball.exe">
       <PackagePath>RulesOfBball.exe</PackagePath>
-      <Modified>2015-12-14T11:40:52.333</Modified>
+      <Modified>2015-12-14T12:06:22.709</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

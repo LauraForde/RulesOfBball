@@ -1,0 +1,54 @@
+﻿<Page
+    x:Class="RulesOfBball.Violations"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RulesOfBball"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/Basketball-Court.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Button x:ConnectionId='1' x:Name="vBackBtn" FontWeight="Black" FontSize="30" Content="Back To Options" HorizontalAlignment="Stretch" VerticalAlignment="Top" RenderTransformOrigin="1.048,-0.685"                        />
+        <TextBlock x:ConnectionId='2' x:Name="headerBlock" Margin="66,57,56,0" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Top" Height="37" Width="238">
+                <Run Foreground="Red" FontWeight="Bold" FontSize="30" Text="Violations" />
+        </TextBlock>
+        <ScrollViewer Margin="10,99,10,54" d:LayoutOverrides="TopPosition, BottomPosition">
+            <TextBlock x:ConnectionId='3' x:Name="textBlock" TextWrapping="Wrap"  Height="1094">
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Traveling"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="Taking more than 'a step and a half' without dribbling the ball is traveling. Moving your pivot foot once you've stopped dribbling is traveling."/>
+                <LineBreak/>
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Carrying/Palming"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="When a player dribbles the ball with his hand too far to the side of or, sometimes, even under the ball."/>
+                <LineBreak/>
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Double Dribble"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="Dribbling the ball with both hands on the ball at the same time or picking up the dribble and then dribbling again is a double dribble."/>
+                <LineBreak/>
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Held Ball"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="Occasionally, two or more opposing players will gain possession of the ball at the same time. In order to avoid a prolonged and/or violent tussle, the referee stops the action and awards the ball to one team or the other on a rotating basis."/>
+                <LineBreak/>
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Goaltending"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="If a defensive player interferes with a shot while it's on the way down toward the basket, while it's on the way up toward the basket after having touched the backboard, or while it's in the cylinder above the rim, it's goaltending and the shot counts. If committed by an offensive player, it's a violation and the ball is awarded to the opposing team for a throw-in."/>
+                <LineBreak/>
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Backcourt"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="Once the offense has brought the ball across the mid-court line, they cannot go back across the line during possession. If they do, the ball is awarded to the other team to pass inbounds."/>
+                <LineBreak/>
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Time Restrictions"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="A player passing the ball inbounds has five seconds to pass the ball. If he does not, then the ball is awarded to the other team. Other time restrictions include the rule that a player cannot have the ball for more than five seconds when being closely guarded and, in some states and levels, shot-clock restrictions requiring a team to attempt a shot within a given time frame."/>
+                <LineBreak/>
+            </TextBlock>
+
+        </ScrollViewer>
+    </Grid>
+</Page>
+
