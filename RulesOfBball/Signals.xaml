@@ -1,0 +1,62 @@
+﻿<Page
+    x:Class="RulesOfBball.Signals"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RulesOfBball"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/Basketball-Court.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Button x:Name="sBackBtn" FontWeight="Black" FontSize="30" Content="Back To Options" HorizontalAlignment="Stretch" VerticalAlignment="Top" RenderTransformOrigin="1.048,-0.685" Click="fBackBtn_Click" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="headerBlock" Margin="54,57,60,0" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Top" Height="37" Width="246" Grid.ColumnSpan="2">
+             <Run Foreground="Red" FontWeight="Bold" FontSize="30" Text="Referee Signals" />
+        </TextBlock>
+        <ScrollViewer Margin="54,99,63,10" d:LayoutOverrides="LeftPosition, RightPosition">
+            <TextBlock x:Name="textBlock" TextWrapping="Wrap">
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Substitution"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="The referee will signal an 'X' with thier arms to show a team wants to make a subsitution."/>
+                <LineBreak/>
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Time-Out"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="Placing an index finger against their other plam, showing a 'T' signal means a team wants to take a time-out."/>
+                <LineBreak/>
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="One Point"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="To show that one point was scored, the referee will hold up one finger and 'flag' from thier wrist."/>
+                <LineBreak/>
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Two Points"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="To show that two points was scored, the referee will hold up two fingers and 'flag' from thier wrist."/>
+                <LineBreak/>
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Three Points Attempt"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="To show that a player has attempted a 3 point shot the referee will extend thier arm fully in the air holding up 3 fingers."/>
+                <LineBreak/>
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Three Points Scored"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="To show that the 3 point shot was scored the referee will extend both arms in the air with 3 fingers on each hand extended."/>
+                <LineBreak/>
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Foul"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="While blowing the whistle the referee with extend one arm in the air with a closed fist and the other arm will point to the player that fouled. The clocked is then stopped until the ball is up back into play."/>
+                <LineBreak/>
+                 <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Travelling"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="To show that a player has taken too many steps, the referee will hold thier arms horziontally moving them in a circle motion."/>
+                <LineBreak/>
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Jump Ball"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="To show that there was a fair contest for the ball between two players the referee will blow the whistle and give a thumbs up. The team who wins the contest is changed every time with the table keeping a pointer and moving it after every contest."/>
+                <LineBreak/>
+            </TextBlock>
+
+        </ScrollViewer>
+
+    </Grid>
+</Page>

@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="RulesOfBball.Positions"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RulesOfBball"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/Basketball-Court.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <ScrollViewer Margin="73,99,52,10" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition">
+            <TextBlock x:Name="textBlock" TextWrapping="Wrap" Height="478">
+        	<Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="1. Centre."/>
+                 <LineBreak/>
+             <Run Foreground="AliceBlue" FontSize="15" Text="The centres are usually the tallest players and are placed near the basket. On the offence centres are required to get free for a pass or shot, they are expected to get rebounds and to block defenders. On the defensive the centres are required to block shot and passes. They are also expected to get rebounds."/>
+                 <LineBreak/>
+             <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text ="2. Forwards. " />
+        	     <LineBreak/>	
+            <Run Foreground="AliceBlue" FontSize="15" Text = "The forwards are usually placed at the top corners of the key or the wing area. On the offence the forwards are expected to take outside shots, drive for a layup and get rebounds. On the defensive forwards are expected to prevent drives and get rebounds."/>
+                 <LineBreak/>
+             <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="3. Guards."/>
+                 <LineBreak/>
+            <Run Foreground="AliceBlue" FontSize="15" Text="The guards are generally the shortest players and should be really good at dribbling fast and spotting breaks from other players. They have the responsibility of bringing the ball up the court and set up offensive players. They also need to be able to drive to the basket and to shoot from the perimeter. On the defensive the guard steals passes and prevents drives to the basket."/>
+            </TextBlock>
+        </ScrollViewer>
+        <Button x:Name="pBtn" FontWeight="Black" FontSize="30" Content="Back To Options" HorizontalAlignment="Stretch" VerticalAlignment="Top" RenderTransformOrigin="1.048,-0.685" Click="pBtn_Click"/>
+        <TextBlock x:Name="headerBlock" Margin="10,57,10,0" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Top" d:LayoutOverrides="LeftPosition, RightPosition" Height="37">
+                <Run Foreground="Red" FontWeight="Bold" FontSize="30" Text="Player Postions" />
+        </TextBlock>
+    </Grid>
+</Page>

@@ -1,0 +1,61 @@
+﻿<Page
+    x:Class="RulesOfBball.Fouls"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RulesOfBball"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/Basketball-Court.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Button x:Name="fBackBtn" FontWeight="Black" FontSize="30" Content="Back To Options" HorizontalAlignment="Stretch" VerticalAlignment="Top" RenderTransformOrigin="1.048,-0.685" Click="fBackBtn_Click" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="headerBlock" Margin="54,57,60,0" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Top" Height="37" Width="246" Grid.ColumnSpan="2">
+             <Run Foreground="Red" FontWeight="Bold" FontSize="30" Text="Fouls" />
+        </TextBlock>
+        <ScrollViewer Margin="10,99,10,10" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition" Grid.ColumnSpan="2">
+            <TextBlock x:Name="textBlock" TextWrapping="Wrap" Width="254">
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Personal Fouls"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="Personal fouls include any type of illegal physical contact, including hitting, pushing, slapping and illegal screen."/>
+                <LineBreak/>
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Personal Fouls Penalties"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="If a player is fouled while taking a shot they are awarded two free throws if the shot is missed and one shot if the shot is scored."/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="Three free throws are awarded if the player is fouled while shooting for a three-point goal and they miss their shot. If a player is fouled while shooting a three-point shot and makes it anyway, he is awarded one free throw. Thus, he could score four points on the play."/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="Inbounds. If fouled while not shooting, the ball is given to the team the foul was committed upon. They get the ball at the nearest side or baseline, out of bounds, and have 5 seconds to pass the ball onto the court."/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="If the team committing the foul has seven or more fouls in the game, then the player who was fouled is awarded one free throw. If he makes his first shot, then he is awarded another free throw."/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="Ten or more fouls. If the team committing the foul has ten or more fouls, then the fouled player receives two free throws."/>
+                <LineBreak/>
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Charging"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="An offensive foul that is committed when a player pushes or runs over a defensive player. The ball is given to the team that the foul was committed upon."/>
+                <LineBreak/>
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Blocking"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="Blocking is illegal personal contact resulting from a defender not establishing position in time to prevent an opponent's drive to the basket."/>
+                <LineBreak/>
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Flagrant Foul"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="Violent contact with an opponent. This includes hitting, kicking, and punching. This type of foul results in free throws plus the offense retaining possession of the ball after the free throws."/>
+                <LineBreak/>
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Intentional Foul"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="When a player makes physical contact with another player with no reasonable effort to steal the ball. It is a judgment call for the officials."/>
+                <LineBreak/>
+                <Run Foreground="Red" FontWeight="Bold" FontSize="20" Text="Technical Foul"/>
+                <LineBreak/>
+                <Run Foreground="AliceBlue" FontSize="15" Text="Technical foul. A player or a coach can commit this type of foul. It does not involve player contact or the ball but is instead about the 'manners' of the game. Foul language, obscenity, obscene gestures, and even arguing can be considered a technical foul, as can technical details regarding filling in the scorebook improperly or dunking during warm-ups."/>
+
+            </TextBlock>
+
+        </ScrollViewer>
+    </Grid>
+</Page>
